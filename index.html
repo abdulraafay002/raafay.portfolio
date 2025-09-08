@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raafay Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #111;
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 18px;
+      font-style: italic;
+      margin-top: 10px;
+      color: #aaa;
+    }
+
+    nav {
+      text-align: center;
+      padding: 15px;
+      background: #000;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+      border-bottom: 2px solid transparent;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      border-bottom: 2px solid #fff;
+    }
+
+    .portfolio {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .portfolio h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #111;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+      padding: 10px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px 0;
+    }
+
+    .card p {
+      margin: 5px 0;
+      color: #aaa;
+    }
+
+    .testimonials {
+      background-color: #111;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .testimonials h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .testimonial {
+      max-width: 600px;
+      margin: 20px auto;
+      font-style: italic;
+      border-left: 3px solid #fff;
+      padding-left: 15px;
+      color: #ccc;
+    }
+
+    .contact {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .contact p, .contact a {
+      margin: 10px 0;
+      font-size: 18px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      color: #aaa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      font-size: 14px;
+      color: #888;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Raafay's Business Portfolio</h1>
+    <p>"We are the best because we care"</p>
+  </header>
+
+  <nav>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Our Uniform Collection</h2>
+    <div class="images">
+      <div class="card">
+        <img src="https://i.ibb.co/vQkS5Wf/police-uniform.jpg" alt="Police Uniform">
+        <h3>Police Uniform</h3>
+        <p>PKR 2,500</p>
+      </div>
+      <div class="card">
+        <img src="https://i.ibb.co/9w7twY4/firefighter-uniform.jpg" alt="Firefighter Uniform">
+        <h3>Firefighter Uniform</h3>
+        <p>PKR 2,500</p>
+      </div>
+      <div class="card">
+        <img src="https://i.ibb.co/7GdsD4n/construction-uniform.jpg" alt="Construction Uniform">
+        <h3>Construction Uniform</h3>
+        <p>PKR 2,500</p>
+      </div>
+      <div class="card">
+        <img src="https://i.ibb.co/SJj9pF0/custom-uniform.jpg" alt="Customized Uniform">
+        <h3>Customized Uniform</h3>
+        <p>PKR 2,500 + PKR 800 Extra</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>Client Testimonials</h2>
+    <div class="testimonial">"The uniforms are top quality, durable, and very comfortable!" – Ahmed</div>
+    <div class="testimonial">"Professional service and excellent designs. Highly recommend!" – Sara</div>
+    <div class="testimonial">"We’ve been ordering from Raafay’s company for years. Always satisfied." – Bilal</div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Information</h2>
+    <p>Email: <a href="mailto:raafay@example.com">raafay@example.com</a></p>
+    <p>Phone: <a href="tel:+923001234567">+92 300 1234567</a></p>
+    <p>WhatsApp: <a href="https://wa.me/923001234567" target="_blank">Chat on WhatsApp</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/yourusername" target="_blank">@yourusername</a></p>
+    <p>Address: Rawalpindi, Pakistan</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Raafay Portfolio | All Rights Reserved <br>
+    <a href="https://abdulraafay002.github.io/raafay-portfolio/" target="_blank">
+      Visit Our Website
+    </a>
+  </footer>
+
+</body>
+</html>
